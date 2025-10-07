@@ -35,3 +35,17 @@ export type StoreSelection = {
   }>;
   subtotal: number;
 };
+
+// Live pricing types
+export type StoreMeta = {
+  name: string;
+  domain: string; // for site filtering and domain matching
+};
+
+export type StoreOffer = {
+  storeName: string;
+  price: number;
+  url?: string;
+};
+
+export type ItemOffersMap = Record<string, StoreOffer[]>; // key: item name

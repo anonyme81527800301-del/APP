@@ -25,6 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "GOOGLE_API_KEY": "",
+      "GOOGLE_CSE_ID": ""
     }
   }
 }
